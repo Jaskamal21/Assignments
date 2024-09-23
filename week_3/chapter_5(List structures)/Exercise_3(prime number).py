@@ -1,4 +1,4 @@
-def is_prime(n):
+def check_prime(n):
     if n <= 1:
         return False
 
@@ -10,7 +10,7 @@ def is_prime(n):
 
 number = int(input("Enter an integer: "))
 
-if is_prime(number):
+if check_prime(number):
     print(f"{number} is a prime number.")
 else:
     print(f"{number} is not a prime number.")

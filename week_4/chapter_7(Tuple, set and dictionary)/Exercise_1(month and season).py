@@ -13,7 +13,7 @@ def get_season(month):
         return None
 
 
-def main():
+def check_season():
     month = int(input("Enter the number of a month (1-12): "))
 
     season = get_season(month)
@@ -24,4 +24,4 @@ def main():
         print("Invalid month. Please enter a number between 1 and 12.")
 
 
-main()
+check_season()

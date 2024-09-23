@@ -1,4 +1,4 @@
-def main():
+def add_names():
     names_set = set()
 
     while True:
@@ -18,4 +18,4 @@ def main():
         print(name)
 
 
-main()
+add_names()

@@ -7,7 +7,7 @@ def pizza_unit_price(diameter, price):
     return unit_price
 
 
-def main():
+def value_for_money():
     diameter1 = float(input("Enter the diameter of the first pizza in centimeters: "))
     price1 = float(input("Enter the price of the first pizza in euros: "))
 
@@ -27,4 +27,4 @@ def main():
     else:
         print("Both pizzas offer the same value for money.")
 
-main()
+value_for_money()

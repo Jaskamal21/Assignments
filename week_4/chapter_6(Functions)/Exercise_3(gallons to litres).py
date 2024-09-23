@@ -2,7 +2,7 @@ def gallons_to_litres(gallons):
     litre = gallons * 3.78541
     return litre
 
-def main():
+def convert_gallons():
     while True:
         gallons = float(input("Enter gallons or enter negative value to: "))
         if gallons < 0:
@@ -13,4 +13,4 @@ def main():
         print(f"Value of {gallons} gallons in litres is {litre:.2f}")
         break
 
-main()
+convert_gallons()
